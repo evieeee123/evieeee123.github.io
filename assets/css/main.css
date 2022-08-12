@@ -110,7 +110,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: #49bf9d;
 		text-decoration: none;
 	}
@@ -3219,3 +3219,29 @@ input, select, textarea {
 			}
 
 	}
+
+
+.skill-icon{
+	font-size: 30px;
+	max-width: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+#skill{
+	font-size: 20px;
+}
+
+#angellist{
+	font-size: 23px;
+	text-decoration: none;
+}
+
+#icon-second{
+	margin-left: 18px;
+}
+
+#icon-second:hover{
+	color: grey
+}
